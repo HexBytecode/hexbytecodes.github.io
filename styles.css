@@ -37,7 +37,7 @@ body {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(5, 6, 7, .08) 0%, rgba(5, 6, 7, .12) 44%, rgba(4, 5, 6, .20) 100%),
-    radial-gradient(ellipse at 50% 43%, transparent 0%, rgba(0, 0, 0, .08) 78%, rgba(0, 0, 0, .20) 100%);
+    radial-gradient(ellipse at 50% 43%, transparent 0%, rgba(0, 0, 0, .08) 78%, rgba(0, 0, 0, .10) 100%);
 }
 
 .page {
@@ -301,7 +301,7 @@ h1 {
 
 
 /* Desktop dimensions tuned to match the original reference proportions. */
-@media (min-width: 761px) {
+@media (min-width: 764px) {
   :root { --page-width: 960px; }
 
   .page {
